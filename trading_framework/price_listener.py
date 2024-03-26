@@ -7,7 +7,7 @@ class PriceListener(Protocol):
         """
         invoked on market data change
         :param product_id: id of the product that has a price change
-        :param price: the current market price of hte product
+        :param price: the current market price of the product
         :return: None
         """
         ...
